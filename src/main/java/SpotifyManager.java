@@ -6,9 +6,7 @@ import java.util.*;
 public class SpotifyManager {
 
     private static final String accessToken = "";
-    private static final String userId = "hw3114ytfhftceysueutaqf06";
-
-    //static String name= "Test Name";
+    private static final String userId = "";
 
     public SpotifyApi getSpotifyApi(){
         //SpotifyApi class gives access to spotify web api
@@ -27,10 +25,6 @@ public class SpotifyManager {
     public String getUserId(){
         return userId;
     }
-
-    /*public String getName(){
-        return name;
-    }*/
 
 
 }
